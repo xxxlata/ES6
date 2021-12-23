@@ -27,7 +27,7 @@ console.log(dotted);
 
 핵심은 implicit return 을 이용한 점이다. 
 
-*implicit return = "같은 줄"에 어떤 것을 적던지 return 시켜주는 방식.
+*implicit return = "같은 줄"에 어떤 것을 적던지 return 시켜주는 방식. {}은 implicit return을 막기 때문에 오브젝트 리턴시 ()로 감싸주자.
 
 ++ 추가 설명
 

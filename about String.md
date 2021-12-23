@@ -70,3 +70,48 @@ wrapper.innerHTML = list;
 
 -----------------------------------------------------------------------
 # More String Improvements # 
+
+### includes
+
+string 에 포함되어있는 것을 includes 키워드로 확인할 수 있다.
+
+ex)
+```
+const isEmail = (email) => email.includes("@");
+
+console.log(isEmail("juha@nomadcoders.co"));
+
+//결과값 = true
+```
+--------------------------------------------------------
+### repeat
+
+어떤 문자든 반복할 수 있다.
+
+ex)
+```
+const CC_NUMBER = "6060";
+
+const displayName = `${"*".repeat(10)}${CC_NUMBER}`;
+
+console.log(displayName);
+
+//결과값 = **********6060
+```
+
+-----------------------------------------------------
+### startsWith/ endsWith
+
+유효성 검사에 유용하다. startsWith는 앞자리 검사
+endsWith는 뒷자리 검사에 사용해보자.
+
+ex)
+```
+const name = "juha kim";
+console.log(name.endsWith("kim"));
+
+//결과값 = true
+
+```
+
+

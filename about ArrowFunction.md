@@ -7,9 +7,9 @@ ex) 기존 function 방식
 ```
 const names =['tomato', 'potato','banana'];
 
-const dotted = names.map(function(item)
+const dotted = names.map(function(item){
 return item + ".";
-);
+});
 
 console.log(dotted);
 ```

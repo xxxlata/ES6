@@ -64,7 +64,7 @@ console.log(friends);
 -----------------------------------------------------------
 ### Array.fill()
 
-array element를 지정 값으로 채운다.
+array element를 지정 값으로 채운다. 
 
 ex)
 ```

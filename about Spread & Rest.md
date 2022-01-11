@@ -86,3 +86,5 @@ bestFriendMaker("juha","hapi","mango","mark");
 //결과값 = the firstone is juha 
 [ 'hapi', 'mango', 'mark' ]
 ```
+-----------------------------------------
+#### spread + rest + destructuring

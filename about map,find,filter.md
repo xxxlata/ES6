@@ -12,6 +12,13 @@ console.log(hearts);
 
 //result = ["juha♡","mango♡","hapi♡"]
 ```
+```
+const num = [1,2,3,4,5,6,7,8,9,10];
+const calculation = num.map(x=> x*2);
+console.log(calculation);
+
+//result = [2,4,6,8,10,12,14,16,18,20]
+```
 -------------------------------------------------------
 ### filter
 
